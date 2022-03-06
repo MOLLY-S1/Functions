@@ -11,4 +11,6 @@ def main_routine():
     while ticket_wanted != "N":
         input("What type of tickets do you want,\n"
               "C for child tickets\n"
-              "A for adult ")
+              "A for adult tickets\n"
+              "S for student tickets\n"
+              "G for gift vouchers")
