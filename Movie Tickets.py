@@ -16,6 +16,7 @@ def main_routine():
               "G for gift vouchers\n"
                        ":").upper()
         amount = int(input("how many tickets? "))
+        amount = globals(amount)
         confirm = input("Confirm (Y,N)?").upper()
 
         if confirm == "Y":
@@ -33,7 +34,33 @@ def main_routine():
                    f" {student} = student sales, \n"
                    f"{child} = child sales, \n"
                    f"{gift} = gift vouchers")
-    while 
+
+    while ticket_wanted != "Y":
+        c_price = 7 * amount
+        a_price = 12.50 * amount
+        s_price = 9 * amount
+        g_price = 0
+        total = c_price + s_price + a_price
+
+        if gift == 0:
+            return(f" you total price for:\n"
+           f"adult tickets is {a_price}\n"
+           f"child tickets is {c_price}\n"
+           f"student tickets is {s_price}\n"
+           f"and your total is ${total}")
+
+        else:
+            return("because of gift vouchers your tickets are free")
+
+
+
+
+
+
+
+
+
+
 
 #main rountine
 print(main_routine())
