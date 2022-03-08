@@ -44,16 +44,13 @@ def main_routine():
 
         if gift == 0:
             return(f" you total price for:\n"
-           f"adult tickets is {a_price}\n"
-           f"child tickets is {c_price}\n"
-           f"student tickets is {s_price}\n"
+           f"adult tickets is ${a_price}\n"
+           f"child tickets is ${c_price}\n"
+           f"student tickets is ${s_price}\n"
            f"and your total is ${total}")
 
         else:
             return("because of gift vouchers your tickets are free")
-
-
-
 
 
 

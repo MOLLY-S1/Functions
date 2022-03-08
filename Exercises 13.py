@@ -29,7 +29,7 @@ def main_routine():
                 gift += numT
 
             ticket_wanted = input("\nDo you want "
-                                  "another ticket").upper()
+                                  "another ticket(Y,N) ").upper()
 
             print("-------------------------------------------------")
             print(f"the total is {sold}\n"
